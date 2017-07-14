@@ -1,2 +1,2 @@
-var msg = 'Movie Quotes'
-console.log(msg);
+const movieQuotes = require ('movie-quotes');
+    movieQuotes.random();
