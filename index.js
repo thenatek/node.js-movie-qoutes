@@ -6,5 +6,10 @@ app.get('/', function (reg, res) {
 })
 
 app.listen(3000, function () {
-	console.log(movieQuotes.random())
+	console.log('Running on port 3000')
 })
+
+const movieQuotes = require ('movie-quotes');
+    movieQuotes.random();
+
+
