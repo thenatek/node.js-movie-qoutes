@@ -22,6 +22,7 @@
   "homepage": "https://github.com/thenatek/node.js-movie-qoutes#readme",
   "dependencies": {
     "bootswatch": "^3.3.7",
+    "express": "^4.15.3",
     "jquery": "^3.2.1",
     "movie-quotes": "^1.0.0"
   }
